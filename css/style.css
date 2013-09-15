@@ -5,18 +5,6 @@ html {
 	-webkit-font-smoothing: antialiased;
 }
 
-body {
-	font-family: 'Open Sans';
-	font-weight: 300;
-	font-size: 80%;
-	color: #B2B6BD;
-	line-height: 2.8em;
-	margin-top: 15%;
-	margin-left: 10%;
-	margin-right: 10%;
-	max-width: 750px;
-}
-
 h1 {
 	font-weight: 300;
 }
@@ -34,6 +22,8 @@ a {
 a:hover {
 	text-decoration: underline;
 }
+
+/*---ANIMATION--*/
 
 .animated {
     -webkit-animation-fill-mode: both;
@@ -109,4 +99,15 @@ a:hover {
 	-moz-animation-name: fadeInDown;
 	-o-animation-name: fadeInDown;
 	animation-name: fadeInDown;
+	font-family: 'Open Sans';
+	font-weight: 300;
+	font-size: 80%;
+	color: #B2B6BD;
+	line-height: 2.8em;
+	margin-top: 12%;
+	margin-left: 10%;
+	margin-right: 10%;
+	max-width: 750px;
 }
+
+/*---END ANIMATION---*/
