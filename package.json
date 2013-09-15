@@ -17,6 +17,10 @@
     "type": "git",
     "url": "https://github.com/robinsharma.ca"
   },
+  "keywords": [
+  "node",
+  "heroku"
+  ],
   "author": "Robin Sharma",
   "license": "BSD-2-Clause"
 }
