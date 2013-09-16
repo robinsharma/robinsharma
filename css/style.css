@@ -46,7 +46,7 @@ a:hover {
     animation-duration: 1.5s;
 }
 
-@-webkit-keyframes fadeInDown {
+@-webkit-keyframes fadeInLeft {
 	0% {
 		opacity: 0;
 		-webkit-transform: translateX(-20px);
@@ -58,7 +58,7 @@ a:hover {
 	}
 }
 
-@-moz-keyframes fadeInDown {
+@-moz-keyframes fadeInLeft {
 	0% {
 		opacity: 0;
 		-moz-transform: translateX(-20px);
@@ -70,7 +70,7 @@ a:hover {
 	}
 }
 
-@-o-keyframes fadeInDown {
+@-o-keyframes fadeInLeft {
 	0% {
 		opacity: 0;
 		-o-transform: translateX(-20px);
@@ -82,7 +82,7 @@ a:hover {
 	}
 }
 
-@keyframes fadeInDown {
+@keyframes fadeInLeft {
 	0% {
 		opacity: 0;
 		transform: translateX(-20px);
@@ -94,11 +94,11 @@ a:hover {
 	}
 }
 
-.fadeInDown {
-	-webkit-animation-name: fadeInDown;
-	-moz-animation-name: fadeInDown;
-	-o-animation-name: fadeInDown;
-	animation-name: fadeInDown;
+.fadeInLeft {
+	-webkit-animation-name: fadeInLeft;
+	-moz-animation-name: fadeInLeft;
+	-o-animation-name: fadeInLeft;
+	animation-name: fadeInLeft;
 	font-family: 'Open Sans';
 	font-weight: 300;
 	font-size: 80%;
