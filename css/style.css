@@ -20,7 +20,10 @@ a {
 }
 
 a:hover {
-	text-decoration: underline;
+	color: black;
+	background: yellow;
+	text-shadow: none;
+	border-radius: 2px;
 }
 
 /*---ANIMATION--*/
@@ -111,3 +114,73 @@ a:hover {
 }
 
 /*---END ANIMATION---*/
+
+
+.roll {
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+
+    -webkit-perspective: 300px;
+       -moz-perspective: 300px;
+        -ms-perspective: 300px;
+            perspective: 300px;
+
+
+}
+.roll:hover {
+    background: none;
+    text-shadow: none;
+}
+.roll span {
+    display: block;
+    position: relative;
+    padding: 0 2px;
+    pointer-events: none;
+
+    -webkit-transition: all 700ms ease;
+       -moz-transition: all 700ms ease;
+        -ms-transition: all 700ms ease;
+            transition: all 700ms ease;
+
+    
+}
+.roll:hover span {
+    background: rgba(190,190,20,.9);
+
+    -webkit-transform: translate3d( 0px, 0px, -45px ) rotateY( 360deg );
+       -moz-transform: translate3d( 0px, 0px, -45px ) rotateY( 360deg );
+        -ms-transform: translate3d( 0px, 0px, -45px ) rotateY( 360deg );
+            transform: translate3d( 0px, 0px, -45px ) rotateY( 360deg );
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
