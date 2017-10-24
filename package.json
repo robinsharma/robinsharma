@@ -7,7 +7,7 @@
     "start": "node web.js"
   },
   "dependencies": {
-  "express": "~3.3.4"
+    "express": "~3.3.4"
   },
   "engines": {
     "node": ">=0.10.13",
@@ -18,8 +18,8 @@
     "url": "https://github.com/robinsharma.ca"
   },
   "keywords": [
-  "node",
-  "heroku"
+    "node",
+    "heroku"
   ],
   "author": "Robin Sharma",
   "license": "BSD-2-Clause"
